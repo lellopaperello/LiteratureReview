@@ -36,9 +36,53 @@
 		\maketitle
 	\end{frame}
 	
-	\begin{frame}
-		\centering
-		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio]{LiteratureReview.png}		
+%	\begin{frame}
+%		\centering
+%		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio]{LiteratureReview.png}		
+%	\end{frame}
+
+%	\begin{frame}
+%		\begin{columns}[T]
+%			\begin{column}
+%				"Old":\\
+%				\begin{itemize}
+%					\item Haider & Levenspiel - 1989
+%					\item Hartman - 1994
+%					\item Chien - 1994
+%					\item Swamme & Ojha - 1991
+%				\end{itemize}
+%			\end{column}
+%			\begin{column}
+%				"New":\\
+%				\begin{itemize}
+%					\item Ganser - 1993
+%					\item Holzer & Sommerfeld - 2008
+%					\item Tran, Cong et al. - 2004
+%					\item Loth - 2008
+%				\end{itemize}
+%			\end{column}
+%		\end{columns}
+%	\end{frame}
+
+	\begin{frame}{Chhabra, Agarwal, Sinha - 1998}
+		Critical review of a selection of widely used correlation formulae for the estimation of $ c_D $ of non-spherical particles in incompressible viscous flow.
+		\begin{itemize}
+			\item \textbf{Data points:} 1900
+			\item \textbf{Sphericity:} 0.09 - 1
+			\item \textbf{Re:} $ 10^{-4} - 5 \cdot 10^5 $
+			\item \textbf{Methods analyzed:} Ganser [1993], Haider and Levenspiel [1989], Hartman [1994], Chien [1994] and Swamme and Ojha [1991] - Ordered by decreasing performance.
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Chhabra, Agarwal, Sinha - 1998}
+		Conclusions:
+		\begin{itemize}
+			\item \textbf{Reference length:} equal volume sphere diameter $ d_{\textup{v}} = \sqrt{\dfrac{6 V}{\pi}} $
+			\item \textbf{Shape parameter:} Swamme and Ojha uses the \textit{Corey shape factor} ($ \beta $) while the other four uses the \textit{Sphericity} $ \Phi $
+			\item \textbf{Swamme and Ojha} Poor prediction (only one set of data was used), valid only for $ Re > 1 $.
+			\item \textbf{Ganser:} Best overall method if Lasso and Weideman's results are not taken into account (hollow cylinder and agglomerates made of spherical particles). It's the only one that takes in consideration the \textbf{orientation of the particle}.\\
+			Nb. After Chhabra's review, this will be a minimum requisite for a drag model.
+		\end{itemize}
 	\end{frame}
 
 	\begin{frame}{Holzer and Sommerfeld - 2008}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.22)  3 OCT 2019 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.22)  27 JAN 2020 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,96 +919,93 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Pictures/LiteratureReview.png, id=44, 773.13844pt x 578.16pt>
-File: Pictures/LiteratureReview.png Graphic file (type png)
-<use Pictures/LiteratureReview.png>
-Package pdftex.def Info: Pictures/LiteratureReview.png  used on input line 42.
-(pdftex.def)             Requested size: 307.29158pt x 229.79544pt.
- [2
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 75.
 
- <./Pictures/LiteratureReview.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 55.
- (c:/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
+(c:/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 55.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 55.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 75.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 55.
+(Font)              <10.95> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 55.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+(Font)              <6> on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
-
-]
-<Pictures/ComparisonH&S.png, id=105, 907.13907pt x 248.42813pt>
-File: Pictures/ComparisonH&S.png Graphic file (type png)
-<use Pictures/ComparisonH&S.png>
-Package pdftex.def Info: Pictures/ComparisonH&S.png  used on input line 64.
-(pdftex.def)             Requested size: 307.28987pt x 84.1536pt.
- [4
-
- <./Pictures/ComparisonH&S.PNG>]
-<Pictures/DNS.png, id=133, 539.76656pt x 469.00218pt>
-File: Pictures/DNS.png Graphic file (type png)
-<use Pictures/DNS.png>
-Package pdftex.def Info: Pictures/DNS.png  used on input line 70.
-(pdftex.def)             Requested size: 247.80145pt x 215.31812pt.
- [5
-
- <./Pictures/DNS.PNG>] [6
-
-] [7
-
-] [8
+) [2
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 152.
- [9
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 86.
+ [3
+
+] [4
 
 ]
-<Pictures/ComparisonChina.png, id=265, 587.19376pt x 222.8325pt>
+<Pictures/ComparisonH&S.png, id=132, 907.13907pt x 248.42813pt>
+File: Pictures/ComparisonH&S.png Graphic file (type png)
+<use Pictures/ComparisonH&S.png>
+Package pdftex.def Info: Pictures/ComparisonH&S.png  used on input line 108.
+(pdftex.def)             Requested size: 307.28987pt x 84.1536pt.
+ [5
+
+ <./Pictures/ComparisonH&S.PNG>]
+<Pictures/DNS.png, id=161, 539.76656pt x 469.00218pt>
+File: Pictures/DNS.png Graphic file (type png)
+<use Pictures/DNS.png>
+Package pdftex.def Info: Pictures/DNS.png  used on input line 114.
+(pdftex.def)             Requested size: 247.80145pt x 215.31812pt.
+ [6
+
+ <./Pictures/DNS.PNG>] [7
+
+] [8
+
+] [9
+
+] [10
+
+]
+<Pictures/ComparisonChina.png, id=290, 587.19376pt x 222.8325pt>
 File: Pictures/ComparisonChina.png Graphic file (type png)
 <use Pictures/ComparisonChina.png>
-Package pdftex.def Info: Pictures/ComparisonChina.png  used on input line 164.
+Package pdftex.def Info: Pictures/ComparisonChina.png  used on input line 208.
 (pdftex.def)             Requested size: 307.28987pt x 116.61139pt.
- [10
-
- <./Pictures/ComparisonChina.png>]
-<Pictures/ComparisonItaly.png, id=291, 947.03813pt x 358.33875pt>
-File: Pictures/ComparisonItaly.png Graphic file (type png)
-<use Pictures/ComparisonItaly.png>
-Package pdftex.def Info: Pictures/ComparisonItaly.png  used on input line 177.
-(pdftex.def)             Requested size: 307.28987pt x 116.26733pt.
  [11
 
- <./Pictures/ComparisonItaly.PNG>] [12
+ <./Pictures/ComparisonChina.png>]
+<Pictures/ComparisonItaly.png, id=316, 947.03813pt x 358.33875pt>
+File: Pictures/ComparisonItaly.png Graphic file (type png)
+<use Pictures/ComparisonItaly.png>
+Package pdftex.def Info: Pictures/ComparisonItaly.png  used on input line 221.
+(pdftex.def)             Requested size: 307.28987pt x 116.26733pt.
+ [12
+
+ <./Pictures/ComparisonItaly.PNG>] [13
 
 ]
 \tf@nav=\write6
@@ -1029,26 +1026,26 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 12.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19430 strings out of 492609
- 364078 string characters out of 6132818
+ 19431 strings out of 492609
+ 363987 string characters out of 6132818
  447744 words of memory out of 5000000
- 22882 multiletter control sequences out of 15000+600000
- 36730 words of font info for 40 fonts, out of 8000000 for 9000
+ 22881 multiletter control sequences out of 15000+600000
+ 39498 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,798b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2019/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2019/texmf-dist/fonts/enc/
-dvips/lm/lm-mathsy.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}<c:/texlive/2019/
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2019
+/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2019/texmf-dist/fonts/enc/
+dvips/lm/lm-ec.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
+}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/texlive/2019/
 texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/lm/lmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmm
 i6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/
@@ -1057,13 +1054,14 @@ ts/type1/public/lm/lmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/l
 mr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texliv
 e/2019/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2019/texmf-dist/
 fonts/type1/public/lm/lmss8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
-lm/lmsso10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:
-/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2019/texmf
--dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (12 pages, 538134 bytes).
+lm/lmssbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2019/te
+xmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (13 pages, 443016 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 380 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
