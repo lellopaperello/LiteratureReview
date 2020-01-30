@@ -191,7 +191,11 @@
 			\\
 			$ d_{\textup{n}} $ & & diameter of the sphere with equivalent projected area\\
 			\\
-			$ d_{\textup{s}} $ & & diameter of the sphere with equivalent surface area
+			$ d_{\textup{s}} $ & & diameter of the sphere with equivalent surface area\\
+			\\
+			$ d_{\textup{c}} $ & & diameter of the circumscribing circle\\
+			\\
+			$ A_{\textup{p}} $ & & area of the particle
 		\end{tabular}
 	\end{frame}
 
@@ -200,7 +204,7 @@
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-						\Phi = \dfrac{\pi \ d_{\textup{v}^2}} {A_{\textup{particle}}}
+						\Phi = \dfrac{\pi \ d_{\textup{v}}^2} {A_{\textup{p}}}
 					\end{equation*}
 				\end{column}
 			
@@ -214,7 +218,7 @@
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-					\Phi_{\perp} = \dfrac{\frac{\pi}{4} d_{\textup{v}^2} {A_{\textup{particle}, \perp}}
+					\Phi_{\perp} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {A_{\textup{p}, \perp}}
 					\end{equation*}
 				\end{column}
 				
@@ -230,11 +234,11 @@
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-					\Phi_{/\!/} = \dfrac{\frac{\pi}{4} d_{\textup{v}^2} {\Delta A}
+					\Phi_{/\!/} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {\Delta A}
 					\end{equation*}	
 					\vfill		
 					\begin{equation*}
-					\Delta A = \dfrac{A_{\textup{particle}}}{2} - \bar{A_{\textup{particle},/\!/}}
+					\Delta A = \dfrac{A_{\textup{p}}}{2} - \bar{A_{\textup{p},/\!/}}
 					\end{equation*}
 				\end{column}
 				
@@ -245,6 +249,23 @@
 			\end{columns}
 		\end{block}
 	\end{frame}
+
+	\begin{frame}
+		\begin{block}{Area ratio}
+			\begin{columns}[T]
+				\begin{column}{.4\textwidth}
+					\begin{equation*}
+					A_r = \dfrac{A_{\textup{p}, \perp}}{\frac{\pi}{4}\ d_{\textup{c}}^2}
+					\end{equation*}	
+				\end{column}
+				
+				\begin{column}{.6\textwidth}
+					Ratio between the projected cross-sectional area of the actual particle and the area of the circumscribing circle
+				\end{column}
+			\end{columns}
+		\end{block}
+	\end{frame}
+
 
 %	\begin{frame}{Recent work -- camera-based methods}
 %		\begin{block}{China - 2017}
