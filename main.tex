@@ -85,33 +85,6 @@
 		\end{itemize}
 	\end{frame}
 
-	\begin{frame}{Ganser - 1993}
-		\begin{equation*}
-		c_D = K_2 \frac{24}{Re K_1 K_2} (1 + 0.1118 (Re K_1 K_2)^{0.6567}) + \frac{0.4305}{1 + \frac{3305}{Re K_1 K_2}}
-		\end{equation*}
-		\begin{itemize}
-			\item Function of the generalized Reynolds number ($ Re K_1 K2 $) only!
-		\end{itemize}
-		\vfill
-		Comes from empirical correlations of the general drag formula by \textit{Haider and Levenspiel (1989)}:
-		\begin{equation*}
-		c_D = \frac{24}{Re} (1 + A Re^B) + \dfrac{C}{1 + \frac{D}{Re}}
-		\end{equation*}
-	\end{frame}
-	
-	\begin{frame}{Ganser - 1993}
-		\begin{block}{Stokes' shape factor}
-			\begin{equation*}
-			K_1 = \left( \frac{1}{3} \frac{d_n}{d_v} + \frac{2}{3} \Phi^{-\frac{1}{2}} \right)^{-1} -2.25 \frac{d_v}{D_{\textup{tube}}} 
-			\end{equation*}
-		\end{block}
-		\begin{block}{Newton's shape factor}
-			\begin{equation*}
-			K_2 = 10^{1.8148 (-log(\Phi))^{0.5743}}
-			\end{equation*}
-		\end{block}
-	\end{frame}
-
 	\begin{frame}{Holzer and Sommerfeld - 2008}
 		\begin{itemize}
 			\item Huge literature and data review (2061 values)
@@ -125,20 +98,20 @@
 		\end{equation*}
 	\end{frame}
 
-%	\begin{frame}{Holzer and Sommerfeld - 2008}
-%		\includegraphics[width=\linewidth]{ComparisonH&S.png}
-%		\begin{itemize}
-%			\item Works better than the other for disks and plates
-%			\item Ganser works better for isometric particles
-%			\item Works well overall
-%		\end{itemize}
-%	\end{frame}
-%
-%	\begin{frame}{Sanjeevi, Padding and Kuipers -- 2015}
-%		DNS of a prolate Ellipsoid with $ \Phi = 0.886 $
-%		\centering
-%		\includegraphics[height=.8\textheight]{DNS.png}
-%	\end{frame}
+	\begin{frame}{Holzer and Sommerfeld - 2008}
+		\includegraphics[width=\linewidth]{ComparisonH&S.png}
+		\begin{itemize}
+			\item Works better than the other for disks and plates
+			\item Ganser works better for isometric particles
+			\item Works well overall
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Sanjeevi, Padding and Kuipers -- 2015}
+		DNS of a prolate Ellipsoid with $ \Phi = 0.886 $
+		\centering
+		\includegraphics[height=.8\textheight]{DNS.png}
+	\end{frame}
 
 	\begin{frame}{Stokes Regime}
 		\begin{equation*}
@@ -146,7 +119,7 @@
 		\end{equation*}
 		\vfill
 		\begin{itemize}
-			\item Leith's model - 1993
+			\item Leith's (or Ganser's) model -- 1993
 			\item Valid for low Re ($\leq 10$)
 			\item For sphere ($ \Phi_{\perp} = \Phi_{/\!/} = \Phi $) degenerates to Stokes' analytical solution
 			\item Modification: $ \Phi_{\perp} \rightarrow \Phi_{/\!/} $   (for better approximation of the $ c_D $ as a function of the particle orientation)
@@ -170,37 +143,12 @@
 		\end{block}
 	\end{frame}
 
-	\begin{frame}{Heymsfield and Westbrook - 2010}
-		Adjustment of the Mitchell's (1996) formula (sphere drag model with altered coefficients)
-		\begin{equation*}
-			c_D = C_0 \left( 1 + \frac{\delta_0}{\sqrt{Re}} \right)^2
-		\end{equation*}
-		by means of the area ratio $ A_r $ in order to fit more geometries:
-		\begin{equation*}
-			c_D^* = c_D \ A_r^k = 0.35 \left( 1 + \frac{8}{\sqrt{Re}} \right)^2 A_r^{0.5}
-		\end{equation*}
-		\begin{itemize}
-			\item Only artificial ice shapes used to compute the model equation: planar crystals (List and Schemenauer - 1971) and spherical aggregates (Tran, Cong et al. - 2004)
-			\item Oversensitivity to $ A_r $ of the formula for small area ratio (0.2-0.4)
-		\end{itemize}
-	\end{frame}
-	
-	\begin{frame}{Symbols}
-		\begin{tabular}{ccl}
-			$ d_{\textup{v}} $ & & diameter of the sphere with equivalent volume \\
-			\\
-			$ d_{\textup{n}} $ & & diameter of the sphere with equivalent projected area\\
-			\\
-			$ d_{\textup{s}} $ & & diameter of the sphere with equivalent surface area
-		\end{tabular}
-	\end{frame}
-
 	\begin{frame}{Symbols}
 		\begin{block}{Sphericity}
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-						\Phi = \dfrac{\pi \ d_{\textup{v}^2}} {A_{\textup{particle}}}
+						\Phi = \dfrac{A_{\textup{eq sphere}}}{A_{\textup{particle}}}
 					\end{equation*}
 				\end{column}
 			
@@ -214,7 +162,7 @@
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-					\Phi_{\perp} = \dfrac{\frac{\pi}{4} d_{\textup{v}^2} {A_{\textup{particle}, \perp}}
+					\Phi_{\perp} = \dfrac{A_{\textup{eq sphere, cross}}} {A_{\textup{particle}, \perp}}
 					\end{equation*}
 				\end{column}
 				
@@ -225,57 +173,58 @@
 		\end{block}
 	\end{frame}
 
+
 	\begin{frame}{Symbols}
 		\begin{block}{Lengthwise Sphericity}
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
-					\Phi_{/\!/} = \dfrac{\frac{\pi}{4} d_{\textup{v}^2} {\Delta A}
+					\Phi_{/\!/} = \dfrac{A_{\textup{eq sphere, cross}}} {\Delta A}
 					\end{equation*}	
 					\vfill		
 					\begin{equation*}
-					\Delta A = \dfrac{A_{\textup{particle}}}{2} - \bar{A_{\textup{particle},/\!/}}
+					\Delta A = \dfrac{A_{\textup{particle}}}{2} - \bar{L_{/\!/}}
 					\end{equation*}
 				\end{column}
 				
 				\begin{column}{.6\textwidth}
-					Ratio between the cross-sectional area of the volume-equivalent sphere and the difference between half the surface area and the mean longitudinal projected cross-sectional area of the actual particle.\\
-					Since $ A_{\textup{particle},/\!/} $ depends on the angle of view, an arithmetic average over an entire revolution is used
+					Ratio between the cross-sectional area of the volume-equivalent sphere and the difference between half the surface area and the \textit{average} mean longitudinal projected cross-sectional area of the actual particle.\\
+					Since $ L_{/\!/} $ depends on the angle of view, an arithmetic average over an entire revolution is used
 				\end{column}
 			\end{columns}
 		\end{block}
 	\end{frame}
 
-%	\begin{frame}{Recent work -- camera-based methods}
-%		\begin{block}{China - 2017}
-%			\centering
-%			\includegraphics[width=\linewidth]{ComparisonChina.png}\\
-%			\flushleft
-%			Limitations: 
-%			\begin{itemize}
-%				\item Only three major regular particle shapes investigated (sphere, cube, cylinder)
-%			\end{itemize}
-%		\end{block}
-%	\end{frame}
-%
-%	\begin{frame}{Recent work -- camera-based methods}
-%		\begin{block}{Italy (Bari) - 2015}
-%			\centering
-%			\includegraphics[width=\linewidth]{ComparisonItaly.png}\\
-%			\flushleft
-%			Limitations:
-%			\begin{itemize}
-%				\item Small data sample
-%				\item No comparison with Holzer and Sommerfeld (although good agreement with Ganser)
-%			\end{itemize} 
-%		\end{block}
-%	\end{frame}
-%
-%	\begin{frame}{To do list}
-%		\begin{itemize}
-%			\item Read Loth-2008 (Snow??)
-%			\item Replicate the work of the workshop on SU2
-%			\item (Try the H\&S formula on the Italian data)
-%		\end{itemize}
-%	\end{frame}
+	\begin{frame}{Recent work -- camera-based methods}
+		\begin{block}{China - 2017}
+			\centering
+			\includegraphics[width=\linewidth]{ComparisonChina.png}\\
+			\flushleft
+			Limitations: 
+			\begin{itemize}
+				\item Only three major regular particle shapes investigated (sphere, cube, cylinder)
+			\end{itemize}
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Recent work -- camera-based methods}
+		\begin{block}{Italy (Bari) - 2015}
+			\centering
+			\includegraphics[width=\linewidth]{ComparisonItaly.png}\\
+			\flushleft
+			Limitations:
+			\begin{itemize}
+				\item Small data sample
+				\item No comparison with Holzer and Sommerfeld (although good agreement with Ganser)
+			\end{itemize} 
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{To do list}
+		\begin{itemize}
+			\item Read Loth-2008 (Snow??)
+			\item Replicate the work of the workshop on SU2
+			\item (Try the H\&S formula on the Italian data)
+		\end{itemize}
+	\end{frame}
 \end{document}
