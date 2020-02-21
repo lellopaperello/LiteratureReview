@@ -22,6 +22,8 @@
 	\setsansfont[Scale=0.95]{Arial}
 \fi
 
+\setbeamertemplate{footline}[frame number]
+
 \begin{document}
 	\author{Alessio Raimondi}
 	\title{Literature review on non-spherical particles}
@@ -64,6 +66,11 @@
 %		\end{columns}
 %	\end{frame}
 
+	\begin{frame}{Drag curves - all models}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {sphere_cD_all.eps}		
+	\end{frame}
+
 	\begin{frame}{Chhabra, Agarwal, Sinha - 1998}
 		Critical review of a selection of widely used correlation formulae for the estimation of $ c_D $ of non-spherical particles in incompressible viscous flow.
 		\begin{itemize}
@@ -83,6 +90,20 @@
 			\item \textbf{Ganser:} Best overall method if Lasso and Weideman's results are not taken into account (hollow cylinder and agglomerates made of spherical particles). It's the only one that takes in consideration the \textbf{orientation of the particle}.\\
 			Nb. After Chhabra's review, this will be a minimum requisite for a drag model.
 		\end{itemize}
+	\end{frame}
+
+	\begin{frame}{Symbols}
+		\begin{tabular}{ccl}
+			$ d_{\textup{v}} $ & & diameter of the sphere with equivalent volume \\
+			\\
+			$ d_{\textup{n}} $ & & diameter of the sphere with equivalent projected area\\
+			\\
+			$ d_{\textup{s}} $ & & diameter of the sphere with equivalent surface area\\
+			\\
+			$ d_{\textup{c}} $ & & diameter of the circumscribing circle\\
+			\\
+			$ A_{\textup{p}} $ & & area of the particle
+		\end{tabular}
 	\end{frame}
 
 	\begin{frame}{Ganser - 1993}
@@ -109,6 +130,57 @@
 			\begin{equation*}
 			K_2 = 10^{1.8148 (-log(\Phi))^{0.5743}}
 			\end{equation*}
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Symbols}
+		\begin{block}{Sphericity}
+			\begin{columns}[T]
+				\begin{column}{.4\textwidth}
+					\begin{equation*}
+					\Phi = \dfrac{\pi \ d_{\textup{v}}^2} {A_{\textup{p}}}
+					\end{equation*}
+				\end{column}
+				
+				\begin{column}{.6\textwidth}
+					Ratio between the surface area of the volume-equivalent sphere and the area of the actual particle
+				\end{column}
+			\end{columns}
+		\end{block}
+		\vfill
+		\begin{block}{Crosswise Sphericity}
+			\begin{columns}[T]
+				\begin{column}{.4\textwidth}
+					\begin{equation*}
+					\Phi_{\perp} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {A_{\textup{p}, \perp}}
+					\end{equation*}
+				\end{column}
+				
+				\begin{column}{.6\textwidth}
+					Ratio between the cross-sectional area of the volume-equivalent sphere and the projected cross-sectional area of the actual particle
+				\end{column}
+			\end{columns}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}{Symbols}
+		\begin{block}{Lengthwise Sphericity}
+			\begin{columns}[T]
+				\begin{column}{.4\textwidth}
+					\begin{equation*}
+					\Phi_{/\!/} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {\Delta A}
+					\end{equation*}	
+					\vfill		
+					\begin{equation*}
+					\Delta A = \dfrac{A_{\textup{p}}}{2} - \bar{A_{\textup{p},/\!/}}
+					\end{equation*}
+				\end{column}
+				
+				\begin{column}{.6\textwidth}
+					Ratio between the cross-sectional area of the volume-equivalent sphere and the difference between half the surface area and the mean longitudinal projected cross-sectional area of the actual particle.\\
+					Since $ A_{\textup{particle},/\!/} $ depends on the angle of view, an arithmetic average over an entire revolution is used
+				\end{column}
+			\end{columns}
 		\end{block}
 	\end{frame}
 
@@ -185,73 +257,10 @@
 		\end{itemize}
 	\end{frame}
 	
-	\begin{frame}{Symbols}
-		\begin{tabular}{ccl}
-			$ d_{\textup{v}} $ & & diameter of the sphere with equivalent volume \\
-			\\
-			$ d_{\textup{n}} $ & & diameter of the sphere with equivalent projected area\\
-			\\
-			$ d_{\textup{s}} $ & & diameter of the sphere with equivalent surface area\\
-			\\
-			$ d_{\textup{c}} $ & & diameter of the circumscribing circle\\
-			\\
-			$ A_{\textup{p}} $ & & area of the particle
-		\end{tabular}
-	\end{frame}
-
-	\begin{frame}{Symbols}
-		\begin{block}{Sphericity}
-			\begin{columns}[T]
-				\begin{column}{.4\textwidth}
-					\begin{equation*}
-						\Phi = \dfrac{\pi \ d_{\textup{v}}^2} {A_{\textup{p}}}
-					\end{equation*}
-				\end{column}
-			
-				\begin{column}{.6\textwidth}
-					Ratio between the surface area of the volume-equivalent sphere and the area of the actual particle
-				\end{column}
-			\end{columns}
-		\end{block}
-		\vfill
-		\begin{block}{Crosswise Sphericity}
-			\begin{columns}[T]
-				\begin{column}{.4\textwidth}
-					\begin{equation*}
-					\Phi_{\perp} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {A_{\textup{p}, \perp}}
-					\end{equation*}
-				\end{column}
-				
-				\begin{column}{.6\textwidth}
-					Ratio between the cross-sectional area of the volume-equivalent sphere and the projected cross-sectional area of the actual particle
-				\end{column}
-			\end{columns}
-		\end{block}
-	\end{frame}
-
-	\begin{frame}{Symbols}
-		\begin{block}{Lengthwise Sphericity}
-			\begin{columns}[T]
-				\begin{column}{.4\textwidth}
-					\begin{equation*}
-					\Phi_{/\!/} = \dfrac{\frac{\pi}{4}\ d_{\textup{v}}^2} {\Delta A}
-					\end{equation*}	
-					\vfill		
-					\begin{equation*}
-					\Delta A = \dfrac{A_{\textup{p}}}{2} - \bar{A_{\textup{p},/\!/}}
-					\end{equation*}
-				\end{column}
-				
-				\begin{column}{.6\textwidth}
-					Ratio between the cross-sectional area of the volume-equivalent sphere and the difference between half the surface area and the mean longitudinal projected cross-sectional area of the actual particle.\\
-					Since $ A_{\textup{particle},/\!/} $ depends on the angle of view, an arithmetic average over an entire revolution is used
-				\end{column}
-			\end{columns}
-		\end{block}
-	\end{frame}
 
 	\begin{frame}
 		\begin{block}{Area ratio}
+			\vfill
 			\begin{columns}[T]
 				\begin{column}{.4\textwidth}
 					\begin{equation*}
@@ -265,7 +274,83 @@
 			\end{columns}
 		\end{block}
 	\end{frame}
+	
+	\begin{frame}{Experimental data}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {exp_data.eps}		
+	\end{frame}
+	
+	\begin{frame}{Drag curves - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {cube_cD.eps}		
+	\end{frame}
 
+	\begin{frame}{Drag curves - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {cylinder_cD.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal Velocity}
+		General equation:
+		\begin{equation*}
+			\frac{1}{2} \rho_{f}\ v_{lim}^2\ S_p\ c_D(Re(v_{lim}), model, shape) = W - F_b
+		\end{equation*}
+		becomes
+		\begin{equation*}
+			v_{lim}^2\ c_D(Re(v_{lim}, d_{\textup{v}}), model, shape) = \frac{4}{3} \dfrac{\rho_{p} - \rho_{f}}{\rho_{f}}\ g \ d_{\textup{v}}
+		\end{equation*}
+		and is solved iteratively for the unknown $ v_{lim} $, where $ d_{\textup{v}} $ is the independent variable and \textit{model} and \textit{shape} are parameters.
+	\end{frame}
+
+	\begin{frame}{References}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {references_vt_all.eps}		
+	\end{frame}
+
+	\begin{frame}{Unicity of the solution (1/2)}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {unicity_min.eps}		
+	\end{frame}
+
+	\begin{frame}{Unicity of the solution (2/2)}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {unicity_max.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_sphere.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_cube.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_spherocylinder.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_cylinder008.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_cylinder2.eps}		
+	\end{frame}
+
+	\begin{frame}{Terminal velocity - comparison}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {vt_cylinder5.eps}		
+	\end{frame}
+
+	\begin{frame}{Range of Reynolds number - Camauli (2018)}
+		\centering
+		\includegraphics[height=\textheight,width=\textwidth,keepaspectratio] {Camauli.png}		
+	\end{frame}
 
 %	\begin{frame}{Recent work -- camera-based methods}
 %		\begin{block}{China - 2017}
